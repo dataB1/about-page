@@ -1,24 +1,60 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     width: 80%;
-    margin: auto;
-    overflow: hidden;
+}
+
+.nav-menu {
+    margin-right: 20px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu ul li {
+    margin: 10px 0;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #0f0;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0, 0 0 80px #0f0;
+}
+
+.nav-menu ul li a:hover {
+    color: #ff0;
+    text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 20px #ff0, 0 0 40px #ff0, 0 0 80px #ff0;
+}
+
+.content {
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 20px;
+    font-size: 3em;
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0, 0 0 80px #0f0;
 }
 
 p {
-    text-align: justify;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
     margin: 20px 0;
 }

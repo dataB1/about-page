@@ -1,60 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     width: 80%;
-}
-
-.nav-menu {
-    margin-right: 20px;
-}
-
-.nav-menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.nav-menu ul li {
-    margin: 10px 0;
-}
-
-.nav-menu ul li a {
-    text-decoration: none;
-    color: #0f0;
-    font-size: 1.2em;
-    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0, 0 0 80px #0f0;
-}
-
-.nav-menu ul li a:hover {
-    color: #ff0;
-    text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 20px #ff0, 0 0 40px #ff0, 0 0 80px #ff0;
-}
-
-.content {
-    text-align: center;
+    margin: auto;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 3em;
-    color: #0f0;
-    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0, 0 0 80px #0f0;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p {
-    font-size: 1.2em;
-    color: #fff;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
+    text-align: justify;
     margin: 20px 0;
 }
